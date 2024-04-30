@@ -6,6 +6,7 @@ from indic_transliteration import sanscript
 import os
 from dotenv import load_dotenv, dotenv_values 
 app = flask.Flask(__name__)
+load_dotenv()
 # Load quotes from the JSON file
 with open('/home/rohanphulari2/tukasays/tukasays.json', 'r', encoding='utf-8') as file:
     quotes = json.load(file)
