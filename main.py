@@ -8,7 +8,7 @@ from dotenv import load_dotenv, dotenv_values
 app = flask.Flask(__name__)
 load_dotenv()
 # Load quotes from the JSON file
-with open('/home/rohanphulari2/tukasays/tukasays.json', 'r', encoding='utf-8') as file:
+with open('tukasays.json', 'r', encoding='utf-8') as file:
     quotes = json.load(file)
 url = 'https://rohanphulari2.pythonanywhere.com/'
 # Token of your Telegram bot
