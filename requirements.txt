@@ -1,0 +1,4 @@
+Flask==3.0.3
+indic_transliteration==2.3.59
+pyTelegramBotAPI==4.17.0
+python-dotenv==1.0.1
